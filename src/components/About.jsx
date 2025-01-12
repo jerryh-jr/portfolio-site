@@ -12,7 +12,7 @@ import nodeIcon from '../assets/nodejs-icon-alt.svg';
 
 export default function About() {
     return (
-        <section className="md:grid md:grid-cols-2 place-items-center mt-10 h-screen v-full">
+        <section className="grid md:grid-cols-2 place-items-center mt-10 h-screen v-full">
             <div className="w-3/4 flex flex-col items-center justify-center lg:bg-gray-300 lg:p-8 lg:rounded-lg lg:drop-shadow-2xl lg:text-gray-950">
                 <h3 className="text-3xl">About me:</h3>
                 <p className="pt-2">
