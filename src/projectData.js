@@ -3,7 +3,7 @@ const projects = [
         title: "Cuttle - Open Source Contributor",
         img: require("./assets/images/cuttle.png"),
         link: 'https://github.com/cuttle-cards/cuttle/commits?author=jerryh-jr',
-        linkText: 'Cuttle is an opensource Card game written in Vue.js. This is a link to my contributions to the project.'
+        linkText: 'Cuttle is an open source Card game written in Vue.js. This is a link to my contributions to the project.'
     },
     {
         title: "Add to Cart",
