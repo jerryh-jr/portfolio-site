@@ -54,3 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
   height: auto;
 }
+
+.bg-hero-image {
+  background-image: url("./assets/images/mainBackground.jpg")
+}
