@@ -13,7 +13,7 @@ import nodeIcon from '../assets/nodejs-icon-alt.svg';
 export default function About() {
     return (
         <section className="grid grid-cols-2 place-items-center h-screen v-full">
-            <div className="w-3/4 flex flex-col items-center justify-center bg-gray-300 p-8 rounded-lg drop-shadow-2xl text-gray-950">
+            <div className="w-3/4 flex flex-col items-center justify-center lg:bg-gray-300 lg:p-8 lg:rounded-lg lg:drop-shadow-2xl lg:text-gray-950">
                 <h3 className="text-3xl">About me:</h3>
                 <p className="pt-2">
                     Hey there! I’m a front-end developer passionate about crafting beautiful, responsive websites. Armed with HTML, CSS, JavaScript, and React,
