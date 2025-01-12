@@ -1,7 +1,9 @@
+import cuttle from './assets/images/cuttle.png';
+
 const projects = [
     {
         title: "Cuttle - Open Source Contributor",
-        img: "./assets/cuttle.png",
+        img: cuttle,
         link: 'https://github.com/cuttle-cards/cuttle/commits?author=jerryh-jr',
         linkText: 'Cuttle Commits'
     },
