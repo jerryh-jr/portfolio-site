@@ -16,12 +16,9 @@ export default function About() {
             <div className="w-3/4 flex flex-col items-center justify-center">
                 <h3 className="text-3xl">About me:</h3>
                 <p className="pt-2">
-                    Hey there! I’m a front-end developer with a passion for crafting beautiful, responsive websites.
-                    Armed with HTML, CSS, JavaScript, and React, I turn ideas into interactive digital experiences.
-                    I’m always eager to expand my skills and stay on top of the latest tech trends. When I’m not coding,
-                    you’ll find me diving into online courses, experimenting with new frameworks, or tinkering with side projects to level up my abilities.
-                    I’ve got the skills and certifications, but what really drives me is creating websites that are both functional and fun.
-                    Whether you need a sleek portfolio or a quirky e-commerce site, I’m your go-to dev. Let’s build something awesome together!
+                    Hey there! I’m a front-end developer passionate about crafting beautiful, responsive websites. Armed with HTML, CSS, JavaScript, and React,
+                    I bring ideas to life on the web. I’m always learning and expanding my skills to stay ahead in this ever-evolving field.
+                    Let’s team up and create something awesome together!
                 </p>
             </div>
             <div className="grid grid-cols-3 place-items-center gap-0 w-3/4 ">
