@@ -44,7 +44,7 @@ export default function Projects() {
             infinite={true}
             keyBoardControl={true}
             //customTransition="all 0.5"
-            transitionDuration={5000}
+            transitionDuration={500}
             containerClass="carousel-container"
             removeArrowOnDeviceType={["tablet", "mobile"]}
             dotListClass="custom-dot-list-style"
