@@ -24,9 +24,9 @@ const responsive = {
 const carouselItems = projects.map(project => {
         console.log(project)
         return (
-            <div className="bg-slate-100 rounded-md shadow-md w-3/4 mx-auto my-7">
+            <div className="rounded-md h60 w-3/4 mx-auto my-7 p-2 shadow-2xl bg-gray-200">
                 <a href={project.link}>
-                    <img className="rounded-lg object-contain p-1 drop-shadow-lg" src={project.img} alt={`${project.title} image.`} />
+                    <img className="rounded-lg object-contain p-1 shadow-lg" src={project.img} alt={`${project.title} image.`} />
                 </a>
                 <h4 className="pt-2">{project.title}</h4>
                 <p className="text-lg py-2">{project.linkText}</p>
@@ -43,8 +43,8 @@ export default function Projects() {
             showDots={true}
             infinite={true}
             keyBoardControl={true}
-            customTransition="all .5"
-            transitionDuration={500}
+            //customTransition="all 0.5"
+            transitionDuration={5000}
             containerClass="carousel-container"
             removeArrowOnDeviceType={["tablet", "mobile"]}
             dotListClass="custom-dot-list-style"
