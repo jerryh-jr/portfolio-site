@@ -29,7 +29,7 @@ const carouselItems = projects.map(project => {
                     <img className="rounded-lg object-contain p-1 drop-shadow-lg" src={project.img} alt={`${project.title} image.`} />
                 </a>
                 <h4 className="p-2">{project.title}</h4>
-                <p>This is where a really long description will go for each one of the different projects.</p>
+                <p>{project.linkText}</p>
             </div>
         )
     })
