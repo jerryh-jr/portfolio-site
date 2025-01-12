@@ -28,8 +28,8 @@ const carouselItems = projects.map(project => {
                 <a href={project.link}>
                     <img className="rounded-lg object-contain p-1 drop-shadow-lg" src={project.img} alt={`${project.title} image.`} />
                 </a>
-                <h4 className="p-2">{project.title}</h4>
-                <p>{project.linkText}</p>
+                <h4 className="pt-2">{project.title}</h4>
+                <p className="text-lg py-2">{project.linkText}</p>
             </div>
         )
     })
