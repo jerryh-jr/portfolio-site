@@ -13,9 +13,16 @@ import nodeIcon from '../assets/nodejs-icon-alt.svg';
 export default function About() {
     return (
         <section className="grid grid-cols-2 place-items-center h-screen v-full">
-            <div className="w-3/4 mx-auto">
-                <h3>About me.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+            <div className="w-3/4 flex flex-col items-center justify-center">
+                <h3 className="text-3xl">About me:</h3>
+                <p className="pt-2">
+                    Hey there! I’m a front-end developer with a passion for crafting beautiful, responsive websites.
+                    Armed with HTML, CSS, JavaScript, and React, I turn ideas into interactive digital experiences.
+                    I’m always eager to expand my skills and stay on top of the latest tech trends. When I’m not coding,
+                    you’ll find me diving into online courses, experimenting with new frameworks, or tinkering with side projects to level up my abilities.
+                    I’ve got the skills and certifications, but what really drives me is creating websites that are both functional and fun.
+                    Whether you need a sleek portfolio or a quirky e-commerce site, I’m your go-to dev. Let’s build something awesome together!
+                </p>
             </div>
             <div className="grid grid-cols-3 place-items-center gap-0 w-3/4 ">
                 <img className="svg drop-shadow-md " src={javascriptIcon} alt="JavaScript Icon" />
